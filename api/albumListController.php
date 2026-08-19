@@ -4,7 +4,7 @@
 // 작성
 $sql = "SELECT * FROM album";
 // 검증
-$db->prepare($sql);
+$result = $db->prepare($sql);
 // 실행
 $result->execute();
 // 가공
